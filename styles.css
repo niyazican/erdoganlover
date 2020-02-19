@@ -46,8 +46,7 @@ h1 {
 .AF-text {
   position: absolute;
   font-size: 18px;
-  top: 1180px;
-  left: 400px;
+ margin: 35px;
 }
 
 .presidenttext {
