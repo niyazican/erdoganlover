@@ -1,98 +1,20 @@
-body{
-  font-family:"Times New Roman", Georgia, serif;
-}
-
-.Contact {
-  text-align:center;
-  color: red;
-  font-size: 50px;
-  font-family: Arial, sans-serif
-}
-
-.Creator {
-  color: blue;
-  text-align: center;
-  font-size: 40px;
-  font-family: Courier
+p {
+ font-size: 23px;
 }
 
 h1 {
-    color: red;
-    font-size: 40px;
-    text-decoration-line: underline;
-    text-align: center;
-    border: 2px solid black;
-    border-width: 5px;
-    border-style: dotted
+  font-size: 47px;
 }
 
-
-.Afkomst {
-    color: red;
-    font-size: 40px;
-    position: absolute;
-    top: 1100px;
-    left: 400px;
+h2 {
+  font-size: 27px;
 }
-
-.president {
-  color: red;
-  font-size: 40px;
-  position: absolute;
-  top: 1650px;
-  left: 757px;
+.box {
+  border: 1px;
+  margin: auto;
+  width: 1150px;
+  height: auto;
 }
-
-.AF-text {
-  position: absolute;
-  font-size: 18px;
- margin: 35px;
-}
-
-.presidenttext {
-  position: absolute;
-  font-size: 18px;
-  top: 1735px;
-  left: 757px;
-}
-
-
-.Voetbal {
-  color: red;
-  font-size: 40px;
-  position: absolute;
-  top: 2150px;
-  left: 400px;
-}
-
-.Voetbaltext {
-  position: absolute;
-  font-size: 18px;
-  top: 2250px;
-  left: 400px;
-}
-
-
-
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-div.a {
-    text-align: center;
-    font-size: 120%;
-}
-
-* {box-sizing: border-box;}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 
 #navbar {
  overflow: hidden;
@@ -113,7 +35,7 @@ body {
  padding: 12px;
  text-decoration: none;
  font-size: 25px;
- line-height: 25px;
+ line-height: 15px;
  border-radius: 4px;
 }
 
@@ -157,98 +79,10 @@ body {
  }
 }
 
+.logo-image{
+   width: 15px;
+   height: 15px;
+   border-radius: 1000%;
+   overflow: visible;
 
-* {
-  box-sizing: border-box;
-}
-
-.zoom {
-  padding : 150px
-  padding-top: 0px;
-  transition: transform .2s;
-  width: 400px;
-  height: 400px;
-  margin: 0 auto;
-  position: absolute;
-  top: 1150px;
-  right: 300px;
-}
-
-
-.zoom:hover {
-  transform: scale(1.25);
-}
-
-
-.zoom2{
-  padding : 150px
-  padding-top: 0px;
-  transition: transform .2s;
-  width: 400px;
-  height: 400px;
-  margin: 0 auto;
-  position: absolute;
-  top: 1700px;
-  left: 300px;
-}
-
-.zoom2:hover {
-  transform: scale(1.25);
-}
-
-.zoom3 {
-  padding-left: 0px;
-  padding-top: 0px;
-  transition: transform .2s;
-  width: 350px;
-  height:550px;
-  margin: 0 auto;
-  position: absolute;
-  top: 2200px;
-  right: 300px;
-}
-
-.zoom3:hover {
-  transform: scale(1.25);
-}
-
-.VIDvoetbal{
-  position: absolute;
-  top: 2350px;
-  left: 400px;
-}
-
-
-.Leger {
-  font-size: 40px;
-  color: red;
-  position: absolute;
-  top: 2900px;
-  left: 650px;
-}
-
-.leger2 {
-  font-size: 20px;
-  position: absolute;
-  top: 3000px;
-  left: 550px;
-}
-
-/* Set a style for all buttons */
-button {
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: auto;
-  opacity: 0.9;
-  position: absolute;
-  top: 3100px;
-  left:1000px;
-}
-
-button:hover {
-  opacity:1;
 }
